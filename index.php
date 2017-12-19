@@ -23,10 +23,11 @@
     <body>
 
 <!-- Navigation -->
-        <nav class="navbar-default navbar-fixed-top">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header page-scroll">
-					<button type="button" id="navbut" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <div class="main-menu">
+            <div class="container">
+            
+                
+					<button type="button" id="navbut" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -34,7 +35,7 @@
 					</button>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div class="collapse navbar-collapse" id="main-menu" aria-expanded="false" style="height: 1px;">
 					<ul class="nav navbar-nav">
 						<li><a class="page-scroll" href="index.php">News</a></li>
 						<li><a class="page-scroll" href="#mitglieder">Mitglieder</a></li>
@@ -49,8 +50,10 @@
                 
 				<!-- /.navbar-collapse -->
 			
-
-		</nav>
+            
+        
+        </div>
+        
 
      <!-- -----------------------------------------------Inhalt der Seite--------------------------------------------------------------------------------------------------------------------------------------- -->
         
