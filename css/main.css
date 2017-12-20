@@ -13,17 +13,6 @@
 2. Anpassungen
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-.main-menu {
-  width: 100%;
-  max-width: 1120px;
-  height: 76px;
-  background: #fecc00;
-  margin: 1em auto;
-  box-shadow: 2px 2px 12px #666666;
-  z-index: 100;
-  position: relative;
-}
-
 .container{
    margin: 1em auto;
 }
@@ -63,7 +52,43 @@ table, th, td{
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 3. Navbar
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.main-menu {
+  width: 100%;
+  max-width: 1120px;
+  height: 76px;
+  background: #fecc00;
+  margin: 1em auto;
+  box-shadow: 2px 2px 12px #666666;
+    border-radius: 20px;
+}
 
+ul.Nav  {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    margin: auto;
+
+    
+}
+
+ul.Nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 33%;
+    text-align: center;
+    
+}
+ul.Nav li a{
+    color: black;
+}
+div.Nav {
+    position: relative;
+    
+    overflow: visible;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .navbar-toggle {
     border-color: #00649c;

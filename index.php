@@ -35,13 +35,18 @@
 					</button>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="main-menu" aria-expanded="false" style="height: 1px;">
-					<ul class="nav navbar-nav">
-						<li><a class="page-scroll" href="index.php">News</a></li>
-						<li><a class="page-scroll" href="#mitglieder">Mitglieder</a></li>
-						<li><a class="page-scroll" href="#veranstaltungen">Veranstaltungen</a></li>
-						<li><a class="page-scroll" href="#history">History</a></li>
-						<li><a class="page-scroll" href="kontakt.html">Kontakt</a></li>
+				<div class="Nav">
+					<ul class="Nav">
+						<li>
+                            <a href="index.php">Start</a>
+                            <!--
+                            <ul class="Nav closed">
+                                <li><a href="index.php">Bla</a></li>
+                            </ul>
+                            -->
+                        </li>
+						<li><a href="#mitglieder">Angebot</a></li>
+						<li><a href="#veranstaltungen">Transform</a></li>
 					</ul>
                     <div class="navbar-right">
                         </div>
