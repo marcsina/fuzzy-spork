@@ -23,55 +23,45 @@
     <body>
 
 <!-- Navigation -->
-        <div class="main-menu">
-            <div class="container">
-            
-                
-					<button type="button" id="navbut" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					</button>
-				</div>
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="Nav">
-					
-                    <span class="spanwidth">
-                    
-                    <ul class="Nav NavLeft">
-						<li>
-                            <a href="index.php">Fuzzy-Spork</a>
-                        </li>
-						<li><a href="#___">Category1</a></li>
-						<li><a href="#___">Category2</a></li>
-                        <li><a href="#___">Category3</a></li>
-					</ul>
-                    
-                    </span>
-                    <span class="spanwidth">
-                    <ul class="Nav NavRight">
-                        <li><a href="#___">Contact</a></li>
-                        <li><a href="#___">Impressum</a></li>
+        <nav class="navbar-default navbar-fixed-top">
+            <div class="main-menu">
+                <div class="container">
+
+
+                        <button type="button" id="navbut" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <div class="Nav navbar-collapse collapse">
+
+                        <span class="spanwidth">
+
+                        <ul class="Nav NavLeft">
+                            <li>
+                                <a href="index.php">Fuzzy-Spork</a>
+                            </li>
+                            <li><a href="#___">Category1</a></li>
+                            <li><a href="#___">Category2</a></li>
+                            <li><a href="#___">Category3</a></li>
                         </ul>
-                    
-                    </span>
-                    
 
+                        </span>
+                        <span class="spanwidth">
+                        <ul class="Nav NavRight">
+                            <li><a href="#___">Contact</a></li>
+                            <li><a href="#___">Impressum</a></li>
+                            </ul>
 
-                        
-					
-                    
-                </div>
-            
-            
-               
-                
-				<!-- /.navbar-collapse -->
-			
-            
+                        </span>
+
+                    </div>    
+            </div>
+        </nav>
         
-        </div>
         
 
      <!-- -----------------------------------------------Inhalt der Seite--------------------------------------------------------------------------------------------------------------------------------------- -->
@@ -79,6 +69,8 @@
         
         <div class="col-md-12 text-center abstand">
             <h2>Bla Bla</h2>
+            <br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
         
 

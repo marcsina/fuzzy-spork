@@ -67,8 +67,6 @@ ul.Nav  {
     flex-wrap: wrap;
     font-size: 20px;
     margin: auto;
-
-    
 }
 
 
@@ -117,10 +115,14 @@ div.Nav {
 }
 
 .navbar-default {
-	background-color: darkblue;
+	background-color: transparent;
    
 	border-color: transparent;
     color: floralwhite;
+}
+
+.collapse{
+    color: white;
 }
 
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active {
