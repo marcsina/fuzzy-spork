@@ -56,7 +56,7 @@ table, th, td{
   width: 100%;
   max-width: 1120px;
   height: 76px;
-  background: #fecc00;
+  background: black;
   margin: 1em auto;
   box-shadow: 2px 2px 12px #666666;
     border-radius: 20px;
@@ -71,16 +71,30 @@ ul.Nav  {
     
 }
 
+
+.spanwidth {
+    float: left;
+    width: 50%;
+}
+
 ul.Nav li {
     list-style: none;
     margin: 0;
     padding: 0;
-    width: 33%;
+    
     text-align: center;
     
 }
+
+ul.NavRight li{
+    width: 50%;
+}
+
+ul.NavLeft li{
+    width: 25%;
+}
 ul.Nav li a{
-    color: black;
+    color: white;
 }
 div.Nav {
     position: relative;

@@ -36,21 +36,35 @@
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="Nav">
-					<ul class="Nav">
+					
+                    <span class="spanwidth">
+                    
+                    <ul class="Nav NavLeft">
 						<li>
-                            <a href="index.php">Start</a>
-                            <!--
-                            <ul class="Nav closed">
-                                <li><a href="index.php">Bla</a></li>
-                            </ul>
-                            -->
+                            <a href="index.php">Fuzzy-Spork</a>
                         </li>
-						<li><a href="#mitglieder">Angebot</a></li>
-						<li><a href="#veranstaltungen">Transform</a></li>
+						<li><a href="#___">Category1</a></li>
+						<li><a href="#___">Category2</a></li>
+                        <li><a href="#___">Category3</a></li>
 					</ul>
-                    <div class="navbar-right">
-                        </div>
+                    
+                    </span>
+                    <span class="spanwidth">
+                    <ul class="Nav NavRight">
+                        <li><a href="#___">Contact</a></li>
+                        <li><a href="#___">Impressum</a></li>
+                        </ul>
+                    
+                    </span>
+                    
+
+
+                        
+					
+                    
                 </div>
+            
+            
                
                 
 				<!-- /.navbar-collapse -->
