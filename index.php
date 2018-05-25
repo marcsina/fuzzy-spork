@@ -66,13 +66,30 @@
 
      <!-- -----------------------------------------------Inhalt der Seite--------------------------------------------------------------------------------------------------------------------------------------- -->
         
-        
-        <div class="col-md-12 text-center abstand">
-            <h2>Bla Bla</h2>
-            <br>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <!-- nested columns -->
+        <div class="row first-after-navbar">
+
+                <!-- first nested column -->
+                <div class="col-md-4">
+                    <!-- column content -->
+					Textasddddddddddddddddddddddddddddddddddddd
+                </div>
+
+                <!-- second nested column -->
+                <div class="col-md-4">
+                    <!-- column content -->
+					Text1
+
+                </div>
+
+                <!-- third nested column -->
+                <div class="col-md-4">
+				<!-- column content -->
+				Text2
+                </div>
         </div>
-        
+     <!-- Ende der Seite  -->
 
         
         

@@ -2,56 +2,20 @@
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1. Allgemein
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-	
+
+/*#region Allgemein*/
 
 
 
-
-
-
-/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-2. Anpassungen
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-.container{
-   margin: 1em auto;
-}
-
-.abstand{
-    margin-top: 10%;
-}
-
-/**
-.col-sm-6{
-
-  padding-right: 5px;
-  padding-left: 5px;
-}
-**/
-
-.row {
-  margin-right: 5%;
-  margin-left: 5%;
-}
-
-#bild1{
-    width: auto;
-    height: auto;
-}
-#google_maps{
-    box-shadow: 0px 0px 30px #000000;
-}
-
-table, th, td{
-	padding:1px 16px;
-    border: 2px solid black;
-	white-space:nowrap;
-
-}
+/*#endregion*/
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-3. Navbar
+2. Navbar
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*#region NavBar*/
+
+
+
 .main-menu {
   width: 100%;
   max-width: 1120px;
@@ -109,7 +73,7 @@ div.Nav {
 
 .menu-label {
     font-size: 26px;
-    color: #fec503;
+    color: white;
     line-height: 50px;
     margin-left: 40px;
 }
@@ -125,9 +89,8 @@ div.Nav {
     color: white;
 }
 
-.navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active {
-    
-	color: #fec503;
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
+    color: white;
 }
 .navbar-default .navbar-collapse {
 	border-color: rgba(255,255,255,.02)
@@ -135,15 +98,15 @@ div.Nav {
 
 /* Button wenn navbar kleiner wird */
 .navbar-default .navbar-toggle {
-	background-color: blue;
-	border-color: blue;
+	background-color: white;
+	border-color: white;
 }
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: silver;
 }
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
-	background-color: #fed136;
-    border-color: #fed136;
+	background-color: white;
+    border-color: white;
 }
 .navbar-default .nav li a {
 	font-family: "Roboto",sans-serif;
@@ -154,10 +117,14 @@ div.Nav {
 	color: floralwhite;
 }
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
-	color: #fed136;
+	color: white;
 	
     background-color: rgba(0,0,0,0.3);
 }
 
-.navbar-brand{
+.navbar-brand {
     float: right;
+}
+
+/*#endregion NavBar*/
+
