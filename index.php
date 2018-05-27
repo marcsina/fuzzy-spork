@@ -1,3 +1,16 @@
+<?php
+include_once 'php/include/conn.php';
+include_once 'php/include/functions_login.php';
+ 
+sec_session_start();
+ 
+if (login_check($mysqli) == true) {
+    $logged = 'in';
+} else {
+    $logged = 'out';
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     
@@ -91,14 +104,32 @@
         </div>
      <!-- Ende der Seite  -->
 
-        
+         <?php
+        if (isset($_GET['error'])) {
+            echo '<p class="error">Error Logging In!</p>';
+        }
+        ?> 
+        <form action="php/include/login_process.php" method="post" name="login_form">                      
+            Email: <input type="text" name="email" />
+            Password: <input type="password" 
+                             name="password" 
+                             id="password"/>
+            <input type="button" 
+                   value="Login" 
+                   onclick="formhash(this.form, this.form.password);" /> 
+        </form>
+        <p>If you don't have a login, please <a href="php/register.php">register</a></p>
+        <p>If you are done, please <a href="php/include/logout.php">log out</a>.</p>
+        <p>You are currently logged <?php echo $logged ?>.</p>
         
 
 
     <!-- -----------------------------Scritps-------------------------- -->
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script> 
+    <script src="js/main.js"></script>	
+	<script type="text/JavaScript" src="js/sha512.js"></script> 
+    <script type="text/JavaScript" src="js/forms.js"></script> 
     </body>
 </html>
 
